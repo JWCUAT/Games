@@ -40,7 +40,7 @@ def hangman():
             print("Invalid input. Please enter a single letter.")
 
         if "_" not in display_word(secret_word, guessed_letters):
-            print("Congratulations! You guessed the word:", secret_word)
+            print("Congratulations! You found the word:", secret_word)
             break
 
     if attempts == 0:
